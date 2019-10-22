@@ -82,7 +82,7 @@ a {
 /* (rgba(134, 228, 231, 0.7) */
 /* images with css */
 .defaultHero {
-  min-height: calc(100vh - 62px);
+  min-height: calc(60vh - 62px);
   background: linear-gradient(rgba(134, 228, 231, 0.7), rgba(0, 0, 0, 0.2)),
     url("../images/FrontPageHero.png") center/cover no-repeat;
   display: flex;
