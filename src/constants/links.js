@@ -4,12 +4,12 @@ export default [
     text: "ETUSIVU"
   },
   {
-    path: "/blog",
-    text: "ANSIOLUETTELU"
-  },
-  {
     path: "/tours",
     text: "OSAAMINEN"
+  },
+  {
+    path: "/blog",
+    text: "ANSIOLUETTELU"
   },
   {
     path: "/contact",

@@ -2,23 +2,35 @@
   text-align: center;
   letter-spacing: var(--mainSpacing);
   color: var(--mainWhite);
+
 }
+
 .banner h1 {
-  font-size: 3.3rem;
+  font-size: 4rem;
   text-transform: uppercase;
   margin-bottom: 2rem;
   padding: 0 1rem;
   letter-spacing: 6px;
 }
+
+.banner h3 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
 .banner p {
   width: 85%;
+  font-size: 1.6rem;
+  font-weight: 600;
   margin: 0 auto;
   margin-bottom: 2rem;
 }
+
 @media screen and (min-width: 768px) {
   .banner h1 {
     font-size: 4.5rem;
   }
+
   .banner p {
     width: 70%;
   }

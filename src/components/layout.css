@@ -1,16 +1,49 @@
 @import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
 
 :root {
-  --primaryColor: #3fb1d4;
+  --primaryColor: #1c8e92;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
   --mainGrey: #ececec;
   --darkGrey: #afafaf;
+  --onyx: #34383a;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 4px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+
+
+  --backmain: #4f606d;
+
+  --back-sub: #232020;
+  --fill: #ffaa22;
+  --iconfill: #bfdaf1;
+
+  --text-light: #e7e7e7;
+  --text-dark: #444040;
+  --text-darkred: #551b1b;
+  --text-lightblue: #bfdaf1;
+
+  --home: rgba(216, 225, 226, 0.781);
+  --home-light: #e5e2e2;
+  --home-light-border: #c7bdc2;
+  --resume: rgba(200, 212, 214, 0.781);
+  --container-resume: rgba(200, 209, 211, 0.781);
+  --work: rgba(185, 197, 199, 0.781);
+  --contact: rgba(173, 185, 187, 0.781);
+  --container-light: #f0eeee;
+  --container-dark: rgba(210, 219, 221, 0.781);
+
+  --heading-all: rgb(243, 220, 220);
+
+  --skills: #96848d;
+
+  --spanish-grey: #999999;
+  --dark-liver: #4e4e4e;
+  --onyx: #34383a;
+  --rocket-metallic: #9d908d;
+  --back-main-hover: #495760;
 }
 
 * {
@@ -46,6 +79,7 @@ a {
   text-decoration: none;
 }
 
+/* (rgba(134, 228, 231, 0.7) */
 /* images with css */
 .defaultHero {
   min-height: calc(100vh - 62px);

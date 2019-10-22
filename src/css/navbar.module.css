@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
+  padding: 1rem 1.125rem;
 }
 
 
@@ -10,7 +10,6 @@
   background: transparent;
   border: none;
   outline: none;
-  padding: 0px;
 }
 
 .logo-btn:hover {
@@ -27,7 +26,6 @@
   transition: var(--mainTransition);
   height: 0;
   overflow: hidden;
-  margin-top: 12px;
 
 }
 
@@ -40,7 +38,7 @@
   padding: 1rem 1.25rem;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--mainBlack);
+  color: var(--mainWhite);
   transition: var(--mainTransition);
   font-weight: bold;
   letter-spacing: var(--mainSpacing);
@@ -62,6 +60,13 @@ img {
 @media screen and (min-width: 576px) {
   .navbar {
     padding: 0 2rem;
+
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    z-index: 99999;
   }
 }
 
