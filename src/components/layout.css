@@ -12,6 +12,8 @@
   --mainSpacing: 4px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --textDarkGreen: #023100;
+  --textDarkBlue: #1a404b;
 
 
   --backmain: #4f606d;
@@ -19,6 +21,8 @@
   --back-sub: #232020;
   --fill: #ffaa22;
   --iconfill: #bfdaf1;
+
+
 
   --text-light: #e7e7e7;
   --text-dark: #444040;
@@ -82,7 +86,7 @@ a {
 /* (rgba(134, 228, 231, 0.7) */
 /* images with css */
 .defaultHero {
-  min-height: calc(60vh - 62px);
+  min-height: calc(54vh - 42px);
   background: linear-gradient(rgba(134, 228, 231, 0.7), rgba(0, 0, 0, 0.2)),
     url("../images/FrontPageHero.png") center/cover no-repeat;
   display: flex;

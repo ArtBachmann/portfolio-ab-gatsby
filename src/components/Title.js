@@ -1,12 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Title = ({ title, subtitle }) => {
+const Title = ({ title, subtitle, text }) => {
   return (
     <TitleWrapper>
       <h4>
         <span className='title'>{title}</span>
         <span>{subtitle}</span>
+        <span className='text'>{text}</span>
       </h4>
     </TitleWrapper>
   )
@@ -23,6 +24,10 @@ const TitleWrapper = styled.div`
   }
   .title {
     color: var(--primaryColor)
+  }
+  .text {
+    color: var(--primaryColor);
+    text-align: center;
   }
 
   span {

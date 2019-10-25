@@ -1,5 +1,5 @@
 import React from 'react'
-import { IoLogoGithub, IoIosBook, IoIosMail } from 'react-icons/io'
+import { IoLogoGithub } from 'react-icons/io'
 
 export default [
   {

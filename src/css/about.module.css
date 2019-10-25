@@ -1,5 +1,7 @@
 .about {
   padding: 4rem 0;
+  width: 80vw;
+  margin: 0 auto;
 }
 
 .about-center {
@@ -25,11 +27,6 @@
   box-shadow: var(--lightShadow);
 }
 
-
-/* .about-img div {
-  width: 100%;
-  box-shadow: var(--lightShadow);
-} */
 
 .about-info h4 {
   font-size: 1.1rem;
@@ -61,6 +58,7 @@
 
   .about-info p {
     width: 80%;
+    font-size: 1.2rem;
   }
 }
 
