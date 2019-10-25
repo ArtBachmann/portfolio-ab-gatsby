@@ -1,24 +1,24 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Layout from '../components/Layout'
-import { Link } from 'gatsby'
+// import Header from '../examples/RegularHeader'
 import StyledHero from '../components/StyledHero'
 import { graphql } from 'gatsby'
 
-
-
-const contact = ({ data }) => {
-  return (
-    <Layout>
-      <StyledHero img={data.office.childImageSharp.fluid} />
-      <h2>Contact</h2>
-    </Layout>
-  )
+export default class resume extends Component {
+  render() {
+    return (
+      <Layout>
+        <StyledHero img={this.props.data.cabels.childImageSharp.fluid} />
+      </Layout>
+    )
+  }
 }
+
 
 // Page !! query (chnge image name...)
 export const query = graphql`
       query {
-  office:file(relativePath:{eq:"office.png"}){
+  cabels:file(relativePath:{eq:"cabels.png"}){
     childImageSharp{
       fluid(quality:90,maxWidth:1400){
         ...GatsbyImageSharpFluid_withWebp
@@ -28,4 +28,3 @@ export const query = graphql`
 }
 `
 
-export default contact

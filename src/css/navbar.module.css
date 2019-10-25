@@ -5,8 +5,10 @@
   padding: 1rem 1.125rem;
 }
 
-/* 
+
 .logo-btn {
+  position: relative;
+  right: 10px;
   background: transparent;
   border: none;
   outline: none;
@@ -17,14 +19,14 @@
 }
 
 .logo-icon {
-  color: var(--primaryColor);
-  font-size: 1.5rem;
-} */
+  color: var(--textDarkBlue);
+  font-size: 2.5rem;
+}
 
 .nav-links {
   list-style-type: none;
   transition: var(--mainTransition);
-  height: 0;
+  height: 0px;
   overflow: hidden;
 
 }
@@ -60,16 +62,20 @@ img {
 
 @media screen and (min-width: 576px) {
   .navbar {
-    margin: 2rem;
-    padding: 0 6rem;
+    margin: 0 auto;
+    width: 100vw;
+    padding: 0.8rem;
     font-size: 1.2rem;
-
-
+    background: rgb(188, 238, 243);
     position: fixed;
-    top: 0;
+    z-index: 1;
+
+    /* 
+    position: fixed;
+    top: auto;
     width: 100%;
 
-    z-index: 99999;
+    z-index: 1; */
   }
 }
 
@@ -84,6 +90,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
   }
 
   .nav-links {
@@ -91,7 +98,7 @@ img {
     display: flex;
   }
 
-  /* 
+
   .nav-social-links {
     display: flex;
     line-height: 0;
@@ -107,5 +114,5 @@ img {
   .nav-social-links a:hover {
     color: var(--mainBlack);
     transform: translateY(-5px);
-  } */
+  }
 }

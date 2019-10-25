@@ -4,13 +4,11 @@ import { Link } from 'gatsby'
 import StyledHero from '../components/StyledHero'
 import { graphql } from 'gatsby'
 
-
-
-const contact = ({ data }) => {
+const skills = ({ data }) => {
   return (
     <Layout>
-      <StyledHero img={data.office.childImageSharp.fluid} />
-      <h2>Contact</h2>
+      <StyledHero img={data.tools.childImageSharp.fluid} />
+      <h2>Skills</h2>
     </Layout>
   )
 }
@@ -18,7 +16,7 @@ const contact = ({ data }) => {
 // Page !! query (chnge image name...)
 export const query = graphql`
       query {
-  office:file(relativePath:{eq:"office.png"}){
+  tools:file(relativePath:{eq:"tools.png"}){
     childImageSharp{
       fluid(quality:90,maxWidth:1400){
         ...GatsbyImageSharpFluid_withWebp
@@ -28,4 +26,4 @@ export const query = graphql`
 }
 `
 
-export default contact
+export default skills

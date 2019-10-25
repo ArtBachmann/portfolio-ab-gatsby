@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from '../components/Layout'
-// import SimpleHero from '../components/SimpleHero'
 import Banner from '../components/Banner'
 import About from '../components/Home/About'
 import StyledHero from '../components/StyledHero'
@@ -14,16 +13,11 @@ export default ({ data }) => (
       >
       </Banner>
     </StyledHero>
-    {/* <SimpleHero>
-        <Banner title="ART BACHMANN" subtitle="Resume - Portfolio"        
-        >
-        </Banner>
-      </SimpleHero> */}
     <About />
   </Layout>
 )
 
-// Page !! query
+// Page !! query (chnge image name...)
 export const query = graphql`
       query {
   FrontPageHero:file(relativePath:{eq:"FrontPageHero.png"}){
