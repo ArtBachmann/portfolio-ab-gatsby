@@ -1,6 +1,5 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import { Link } from 'gatsby'
 import StyledHero from '../components/StyledHero'
 import { graphql } from 'gatsby'
 
