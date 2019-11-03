@@ -1,17 +1,19 @@
 import React from 'react'
 import styled from 'styled-components'
 
+
 const WiseText = ({ text }) => {
   return (
     <TextWrapper>
       <h4>
-        <span className='text'>{text}</span>     
+        <span className='text'>{text}</span>
       </h4>
     </TextWrapper>
   )
 }
 
-const TextWrapper = styled.div` 
+const TextWrapper = styled.div`  
+
   font-size: 1rem;
   margin-bottom: 3rem;  
   h4 {

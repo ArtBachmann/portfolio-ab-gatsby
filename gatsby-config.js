@@ -4,11 +4,11 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: "Portfolio",
-    description: "Portfolio-resume Ar Bachmann",
+    title: "Portfolio+Resume",
+    description: "Portfolio-resume Art Bachmann",
     author: {
       name: "Art Bachmann",
-      age: 43,
+      age: 49,
       address: 'Vantaa'
     },
     data: ['element1', 'element2']
@@ -32,5 +32,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-transition-link`]
+    `gatsby-plugin-transition-link`,
+    `gatsby-plugin-playground`
+  ]
 }

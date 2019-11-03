@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 :root {
-  --primaryColor: #1c8e92;
+  --primaryColor: #4f606b;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
@@ -17,7 +18,6 @@
 
 
   --backmain: #4f606d;
-
   --back-sub: #232020;
   --fill: #ffaa22;
   --iconfill: #bfdaf1;
@@ -47,7 +47,7 @@
   --dark-liver: #4e4e4e;
   --onyx: #34383a;
   --rocket-metallic: #9d908d;
-  --back-main-hover: #495760;
+  --back-main-hover: #4f606b;
 }
 
 * {
@@ -57,7 +57,7 @@
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: var(--mainBlack);
   background: var(--mainWhite);
   line-height: 1.4;
