@@ -21,5 +21,6 @@ background:${props => props.home ? 'linear-gradient(rgba(134, 228, 231, 0.7), rg
   opacity: 1 !important;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;  
+  /* margin-top: 0px; */
 `

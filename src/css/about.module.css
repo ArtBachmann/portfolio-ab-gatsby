@@ -1,5 +1,5 @@
 .about {
-  padding: 4rem 0;
+  padding: 2rem 0;
   width: 80vw;
   margin: 0 auto;
 }
@@ -10,11 +10,11 @@
 }
 
 .about-img {
-  margin: 3rem 0;
+  margin: 2rem 0;
 }
 
 .about-info {
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .about-img {
@@ -22,19 +22,41 @@
 }
 
 .about-img img {
-  width: 40%;
+  width: 60%;
   display: block;
+  margin: 0 auto;
   box-shadow: var(--lightShadow);
 }
 
+.about h4 {
+  font-size: 1rem;
+  font-weight: 600;
+}
 
-.about-info h4 {
-  font-size: 1.1rem;
-  text-transform: uppercase;
+.about-info p {
+  font-size: 0.8rem;
+  color: var(--primaryColor);
+  font-weight: 600;
+}
+
+@media screen and (min-width: 576px) {
+
+  .about-img img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: var(--lightShadow);
+  }
+
+  .about-info p {
+    font-size: 0.9rem;
+    color: var(--primaryColor);
+    font-weight: 600;
+  }
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 776px) {
   .about-center {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -49,16 +71,29 @@
   }
 
   .about-img img {
-    max-height: 500px;
+    position: relative;
+    bottom: 10px;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    box-shadow: var(--lightShadow);
   }
 
-  .img-container {
-    max-height: 500px;
+  .img-container::before {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    border: 3px solid var(--primaryColor);
+    box-sizing: border-box;
+    top: -20px;
+    left: 34px;
+    z-index: -1;
   }
 
   .about-info p {
-    width: 80%;
-    font-size: 1.2rem;
+    width: 90%;
+    font-size: 0.85rem;
   }
 }
 
@@ -66,7 +101,7 @@
   .img-container::before {
     content: "";
     position: absolute;
-    width: 40%;
+    width: 50%;
     height: 100%;
     border: 3px solid var(--primaryColor);
     box-sizing: border-box;
@@ -78,7 +113,18 @@
 
 @media screen and (min-width: 1200px) {
   .about-center {
-    width: 95vw;
+    width: 75vw;
     max-width: 1170px;
+  }
+
+  .img-container::before {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border: 3px solid var(--primaryColor);
+    box-sizing: border-box;
+    top: -10px;
+    left: 92px;
+    z-index: -1;
   }
 }

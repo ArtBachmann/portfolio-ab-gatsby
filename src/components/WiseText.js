@@ -14,8 +14,7 @@ const WiseText = ({ text }) => {
 
 const TextWrapper = styled.div`  
 
-  font-size: 1rem;
-  margin-bottom: 3rem;  
+   
   h4 {
     text-align: center;
     width: 80vw;
@@ -24,18 +23,45 @@ const TextWrapper = styled.div`
   }
   .text {
     color: var(--textDarkBlue);
-    
+    font-size: 1rem;
+    margin-bottom: 2rem;     
     text-align: center;
   }
   span {
     display:flex;
   }
 
+  @media (min-width: 576px) {
+     .text {
+    color: var(--textDarkBlue);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;     
+    text-align: center;
+  }
+  }
+
   @media (min-width: 776px) {
-    span {
-      display: inline-block;
-      margin: 0 0.4rem;
-    }
+
+    .text {
+    color: var(--textDarkBlue);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;     
+    text-align: center;
+  }   
+  }
+
+  @media (min-width: 992px) {
+    .text {
+    color: var(--textDarkBlue);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;     
+    text-align: center;
+  }
+
+  }
+
+  @media (min-width: 1200px) {
+
   }
 `
 

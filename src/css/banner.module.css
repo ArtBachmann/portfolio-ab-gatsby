@@ -6,16 +6,16 @@
 }
 
 .banner h1 {
-  font-size: 3.2rem;
+  font-size: 2.2rem;
   text-transform: uppercase;
-  margin-bottom: 2rem;
+  margin: 2rem;
   padding: 0 1rem;
   letter-spacing: 6px;
   color: var(--textDarkBlue);
 }
 
 .banner h3 {
-  font-size: 3rem;
+  font-size: 1.6rem;
   margin-bottom: 2rem;
   color: var(--textDarkBlue);
 }
@@ -30,12 +30,121 @@
   color: var(--mainBlack);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 576px) {
+
   .banner h1 {
-    font-size: 4.5rem;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+    letter-spacing: 6px;
+    color: var(--textDarkBlue);
+  }
+
+  .banner h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--textDarkBlue);
+  }
+
+}
+
+@media screen and (min-width: 776px) {
+
+  .banner h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+    letter-spacing: 6px;
+    color: var(--home);
+  }
+
+  .banner h3 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: var(--textDarkBlue);
   }
 
   .banner p {
-    width: 70%;
+    width: 85%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    color: var(--mainBlack);
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  .banner {
+    text-align: center;
+    letter-spacing: var(--mainSpacing);
+    color: var(--mainWhite);
+
+  }
+
+  .banner h1 {
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+    letter-spacing: 6px;
+    color: var(--textDarkBlue);
+  }
+
+  .banner h3 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: var(--textDarkBlue);
+  }
+
+  .banner p {
+    width: 85%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    color: var(--mainBlack);
+  }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+
+  .banner {
+    text-align: center;
+    letter-spacing: var(--mainSpacing);
+    color: var(--mainWhite);
+
+  }
+
+  .banner h1 {
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+    letter-spacing: 6px;
+    color: var(--textDarkBlue);
+  }
+
+  .banner h3 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+    color: var(--textDarkBlue);
+  }
+
+  .banner p {
+    width: 85%;
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    color: var(--mainBlack);
   }
 }

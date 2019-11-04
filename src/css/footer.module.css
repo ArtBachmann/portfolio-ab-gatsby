@@ -14,6 +14,7 @@
   margin: 0.5rem 1rem;
   letter-spacing: var(--mainSpacing);
   transition: var(--mainTransition);
+  font-size: 0.8rem;
   font-weight: bold;
 }
 

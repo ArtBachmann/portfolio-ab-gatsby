@@ -14,16 +14,16 @@ const Title = ({ title, subtitle, text }) => {
 }
 
 const TitleWrapper = styled.div`
-  text-transform: uppercase;
-  font-size: 2rem;
-  margin-bottom: 3rem;
-  h4 {
+  text-transform: uppercase; 
+  margin-bottom: 2.2rem;
+  h4 {   
     text-align: center;
-    letter-spacing: 6px;
-    color: var(--primaryColor)
+    letter-spacing: 4px;
+    color: var(--primaryColor);
   }
   .title {
-    color: var(--primaryColor)
+    color: var(--primaryColor);
+    font-size: 1.4rem;
   }
   .text {
     color: var(--primaryColor);
@@ -34,11 +34,30 @@ const TitleWrapper = styled.div`
     display: block;
   }
 
+  
+
+  @media screen and (min-width: 576px) {
+    .title {
+    color: var(--primaryColor);
+    font-size: 1.8rem;
+  }
+
+  }
+
   @media (min-width: 776px) {
     span {
       display: inline-block;
       margin: 0 0.4rem;
     }
+  }
+
+  @media screen and (min-width: 992px) {
+
+  }
+
+  @media screen and (min-width: 1200px) {
+
+
   }
 `
 

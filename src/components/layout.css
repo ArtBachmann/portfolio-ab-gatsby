@@ -1,20 +1,22 @@
-@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Michroma&display=swap'); */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 :root {
   --primaryColor: #4f606b;
+  --textDarkBlue: #1a404b;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
   --mainGrey: #ececec;
+  --greenGrey: #d7e7e3;
   --darkGrey: #afafaf;
-  --onyx: #34383a;
+  --onyx: #2f5c72;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 4px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
   --textDarkGreen: #023100;
-  --textDarkBlue: #1a404b;
+
 
 
   --backmain: #4f606d;
@@ -29,7 +31,7 @@
   --text-darkred: #551b1b;
   --text-lightblue: #bfdaf1;
 
-  --home: rgba(216, 225, 226, 0.781);
+  --home: rgba(200, 245, 250, 0.781);
   --home-light: #e5e2e2;
   --home-light-border: #c7bdc2;
   --resume: rgba(200, 212, 214, 0.781);
