@@ -12,7 +12,7 @@
   --darkGrey: #afafaf;
   --onyx: #2f5c72;
   --mainTransition: all 0.3s linear;
-  --mainSpacing: 4px;
+  --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
   --textDarkGreen: #023100;
@@ -72,7 +72,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 1.25rem;
   letter-spacing: var(--mainSpacing);
 }

@@ -28,10 +28,12 @@
   box-shadow: var(--lightShadow);
 }
 
-.about h4 {
-  font-size: 1rem;
+.about-info h5 {
+  font-size: 0.8rem;
   font-weight: 600;
 }
+
+
 
 .about-info p {
   font-size: 0.8rem;
@@ -60,7 +62,7 @@
   .about-center {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 3rem;
+    /* grid-column-gap: 3rem; */
     align-items: center;
     margin-top: 3rem;
   }

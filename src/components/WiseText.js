@@ -18,12 +18,12 @@ const TextWrapper = styled.div`
   h4 {
     text-align: center;
     width: 80vw;
-    letter-spacing: 3px;
+    letter-spacing: .4px;
     color: var(--textDarkBlue)
   }
   .text {
     color: var(--textDarkBlue);
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-bottom: 2rem;     
     text-align: center;
   }
@@ -34,7 +34,7 @@ const TextWrapper = styled.div`
   @media (min-width: 576px) {
      .text {
     color: var(--textDarkBlue);
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 2rem;     
     text-align: center;
   }
@@ -44,7 +44,7 @@ const TextWrapper = styled.div`
 
     .text {
     color: var(--textDarkBlue);
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 2rem;     
     text-align: center;
   }   
