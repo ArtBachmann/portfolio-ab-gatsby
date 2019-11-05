@@ -19,7 +19,7 @@ const blog = ({ data }) => {
 // Page !! query (chnge image name...)
 export const query = graphql`
       query {
-  cloud:file(relativePath:{eq:"cloud.png"}){
+  cloud:file(relativePath:{eq:"HeroBackground1.png"}){
     childImageSharp{
       fluid(quality:90,maxWidth:1400){
         ...GatsbyImageSharpFluid_withWebp

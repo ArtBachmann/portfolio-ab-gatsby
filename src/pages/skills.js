@@ -15,7 +15,7 @@ const skills = ({ data }) => {
 // Page !! query (chnge image name...)
 export const query = graphql`
       query {
-  tools:file(relativePath:{eq:"tools.png"}){
+  tools:file(relativePath:{eq:"HeroBackground1.png"}){
     childImageSharp{
       fluid(quality:90,maxWidth:1400){
         ...GatsbyImageSharpFluid_withWebp

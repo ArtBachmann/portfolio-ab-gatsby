@@ -15,10 +15,10 @@ const getTours = graphql`
         name  
         slug
         featured
-        type
+        type       
         images{
           fluid{
-            src
+            ...GatsbyContentfulFluid_tracedSVG
           }        
         }
       }
@@ -30,7 +30,6 @@ const getTours = graphql`
 const FeaturedProjects = () => {
   const response = useStaticQuery(getTours)
   const projects = response.featuredProjects.edges
-  console.log(projects)
   return (
     <section className={styles.tours}>
       <Title title='Parhaat palat...' />

@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css?family=Michroma&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 :root {
@@ -72,7 +72,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Michroma', sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-bottom: 1.25rem;
   letter-spacing: var(--mainSpacing);
 }

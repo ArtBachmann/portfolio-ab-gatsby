@@ -18,7 +18,7 @@ export default class resume extends Component {
 // Page !! query (chnge image name...)
 export const query = graphql`
       query {
-  cabels:file(relativePath:{eq:"cabels.png"}){
+  cabels:file(relativePath:{eq:"HeroBackground1.png"}){
     childImageSharp{
       fluid(quality:90,maxWidth:1400){
         ...GatsbyImageSharpFluid_withWebp

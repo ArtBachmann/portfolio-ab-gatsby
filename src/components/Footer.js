@@ -32,6 +32,15 @@ const Footer = () => {
       <div className={styles.copyright}>
         &copy; Art Bachmann {new Date().getFullYear()}
       </div>
+      <div className={styles.copyright}>
+        <p>
+          Background vector created by starline -
+         www.freepik.com
+       </p>
+      </div>
+      {/* <a
+    href="https://www.freepik.com/free-photos-vectors/background">Background vector created by starline -
+    www.freepik.com</a> */}
     </footer>
   )
 }

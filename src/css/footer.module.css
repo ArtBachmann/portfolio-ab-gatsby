@@ -19,7 +19,7 @@
 }
 
 .links a:hover {
-  color: var(--primaryColor);
+  color: var(--home);
 }
 
 .icons a {
@@ -38,4 +38,8 @@
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
   line-height: 2;
+}
+
+p {
+  font-size: 0.4rem;
 }

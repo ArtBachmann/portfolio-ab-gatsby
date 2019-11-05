@@ -19,7 +19,7 @@ const contact = ({ data }) => {
 // Page !! query (chnge image name...)
 export const query = graphql`
       query {
-  office:file(relativePath:{eq:"office.png"}){
+  office:file(relativePath:{eq:"HeroBackground2.png"}){
     childImageSharp{
       fluid(quality:90,maxWidth:1400){
         ...GatsbyImageSharpFluid_withWebp
