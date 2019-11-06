@@ -7,7 +7,7 @@ import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 
 const Project = ({ project }) => {
-  const { name, slug, type, created, description, images } = project
+  const { name, slug, type, featured, technology, category, created, description, images } = project
   console.log(description)
   let mainImage = images[0].fluid
   return (
@@ -27,7 +27,8 @@ const Project = ({ project }) => {
             {type}
           </h4>
           <div className={styles.details}>
-            <h5>{created}</h5>
+            <h4>{technology}</h4>
+            <h4>{category}</h4>
           </div>
         </div>
       </div>
