@@ -25,10 +25,17 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+        spaceId: "2q6axxrg40tm",
+        accessToken: "lpfIypILfolvspUy0vlYV5q4Y0I7q65b-THhJVf6fbw"
       },
     },
+    // {
+    //   resolve: `gatsby-source-contentful`,
+    //   options: {
+    //     spaceId: process.env.CONTENTFUL_SPACE_ID,
+    //     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+    //   },
+    // },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,

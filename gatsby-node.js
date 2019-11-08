@@ -20,8 +20,8 @@ exports.createPages = async ({ graphql, actions }) => {
       path: `projects/${node.slug}`,
       component: path.resolve('./src/templates/project-template.js'),
       context: {
-        slug: node.slug
-      }
+        slug: node.slug,
+      },
     })
   })
 }

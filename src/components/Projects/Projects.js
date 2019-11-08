@@ -10,16 +10,16 @@ const getProjects = graphql`
         contentful_id
         name  
         slug        
-        featured
-        type
+        featured        
         category
         technology
+        type
         description{
           description
         }
         images{
           fluid{
-            ...GatsbyContentfulFluid_tracedSVG
+            ...GatsbyContentfulFluid
           }        
         }
       }

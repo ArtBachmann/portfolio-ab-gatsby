@@ -15,7 +15,7 @@ const skills = ({ data }) => {
   )
 }
 
-// Page !! query (chnge image name...)
+// Page !! query (change image name...)
 export const query = graphql`
       query {
   tools:file(relativePath:{eq:"HeroBackground1.png"}){

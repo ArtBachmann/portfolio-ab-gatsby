@@ -3,13 +3,14 @@ import Layout from '../components/Layout'
 // import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import StyledHero from '../components/StyledHero'
 import { graphql } from 'gatsby'
+import BlogList from '../components/Blog/BlogList'
 
 const blog = ({ data }) => {
 
   return (
     <Layout>
       <StyledHero img={data.cloud.childImageSharp.fluid} />
-      <h2>Blog</h2>
+      <BlogList />
     </Layout>
 
 

@@ -8,7 +8,8 @@ const Contact = () => {
     <section className={styles.contact}>
       <Title title='contact' subtitle='me' />
       <div className={styles.center}>
-        <form action="https://formspree.io/bachmann.art@gmail.com" method="POST"> className={styles.form}>
+        <form action="https://formspree.io/bachmann.art@gmail.com" method="POST">
+          {styles.form}
           <div>
             <label htmlFor="name">name</label>
             <input
@@ -16,7 +17,7 @@ const Contact = () => {
               name="name"
               id="name"
               className={styles.formControl}
-              placeholder='jhon smith'
+              placeholder='John Smith'
             />
           </div>
           <label htmlFor="email">email</label>
@@ -35,7 +36,7 @@ const Contact = () => {
               name='message'
               id='message'
               className={styles.formControl}
-              placeholder='hei hei'
+              placeholder='hei hei...'
             />
           </div>
           <div>

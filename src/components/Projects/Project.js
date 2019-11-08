@@ -3,18 +3,34 @@ import Image from 'gatsby-image'
 import styles from '../../css/tour.module.css'
 import { FaMap } from 'react-icons/fa'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
+import { useStaticQuery, graphql } from 'gatsby'
+import PropTypes from 'prop-types'
+
+const getImage = graphql`
+  query {
+    file(relativePath: { eq: "Maicel ja Shaunee2.jpg"}) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`
 
 
 
 const Project = ({ project }) => {
-  const { name, slug, type, featured, technology, category, created, description, images } = project
-  console.log(description)
-  let mainImage = images[0].fluid
+  const data = useStaticQuery(getImage)
+  const img = data.file.childImageSharp.fluid
+  const { name, slug, type, technology, category, created, images } = project
+
+  let mainImage = images ? images[0].fluid : img
   return (
     <article className={styles.tour}>
       <div className={styles.imgContainer}>
         <Image fluid={mainImage} className={styles.img} alt='single project' />
-        <AniLink fade className={styles.link} to={`/tours/${slug}`}>
+        <AniLink fade className={styles.link} to={`/projects/${slug}`}>
           sivullee..
         </AniLink>
       </div>
