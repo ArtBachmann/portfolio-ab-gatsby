@@ -1,24 +1,27 @@
 .banner {
   text-align: center;
   letter-spacing: var(--mainSpacing);
+  width: 90vw;
 }
 
 .banner h1 {
   font-size: 2.4rem;
   font-family: "Roboto";
   text-transform: uppercase;
-  margin: 2rem;
-  padding: 0 1rem;
+  margin-top: 2.6rem;
   letter-spacing: 4px;
-  color: var(--textDarkBlue);
+  color: var(--greenGrey);
 }
 
 .banner h3 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  color: var(--textDarkBlue);
+  font-size: 1.8rem;
+  margin-bottom: 1.8rem;
+  color: var(--greenGrey);
+  position: relative;
+  top: -20px;
 }
 
+/* 
 .banner p {
   width: 85%;
   font-size: 1.4rem;
@@ -27,46 +30,45 @@
   margin: 0 auto;
   margin-bottom: 2rem;
   color: var(--mainBlack);
-}
+} */
 
+
+/*  Seems quite good 26.11   */
 @media screen and (min-width: 576px) {
 
   .banner h1 {
     font-size: 2.6rem;
     font-family: "Roboto";
-
     text-transform: uppercase;
-    margin-bottom: 2rem;
     padding: 0 1rem;
     letter-spacing: 6px;
-    color: var(--textDarkBlue);
+    color: var(--greenGrey);
   }
 
   .banner h3 {
     font-size: 2rem;
-    margin-bottom: 2rem;
-    color: var(--textDarkBlue);
+    color: var(--greenGrey);
   }
 
 }
 
-@media screen and (min-width: 776px) {
+@media screen and (min-width: 768px) {
 
   .banner h1 {
-    font-size: 3.4rem;
+    font-size: 3rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 2rem;
+    margin-top: 5rem;
     padding: 0 1rem;
     letter-spacing: 6px;
-    color: var(--textDarkBlue);
+    color: var(--greenGrey);
   }
 
   .banner h3 {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
     margin-bottom: 2rem;
-    color: var(--textDarkBlue);
+    color: var(--greenGrey);
   }
 
   .banner p {
@@ -90,18 +92,18 @@
   }
 
   .banner h1 {
-    font-size: 2.6rem;
+    font-size: 3rem;
     text-transform: uppercase;
-    margin-bottom: 2rem;
+    margin-top: 7rem;
     padding: 0 1rem;
     letter-spacing: 6px;
-    color: var(--textDarkBlue);
+    color: var(--greenGrey);
   }
 
   .banner h3 {
     font-size: 2.2rem;
     margin-bottom: 2rem;
-    color: var(--textDarkBlue);
+    color: var(--greenGrey);
   }
 
   .banner p {
@@ -122,23 +124,23 @@
   .banner {
     text-align: center;
     letter-spacing: var(--mainSpacing);
-    color: var(--mainWhite);
 
   }
 
   .banner h1 {
-    font-size: 2.6rem;
+    font-size: 3.2rem;
     text-transform: uppercase;
-    margin-bottom: 2rem;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
     padding: 0 1rem;
     letter-spacing: 6px;
-    color: var(--textDarkBlue);
+    color: var(--greenGrey);
   }
 
   .banner h3 {
     font-size: 2.2rem;
     margin-bottom: 2rem;
-    color: var(--textDarkBlue);
+    color: var(--greenGrey);
   }
 
   .banner p {

@@ -8,7 +8,7 @@
   --offWhite: #f7f7f7;
   --mainBlack: #222;
   --mainGrey: #ececec;
-  --greenGrey: #d7e7e3;
+  --greenGrey: #c7ebf1;
   --darkGrey: #afafaf;
   --onyx: #2f5c72;
   --mainTransition: all 0.3s linear;
@@ -88,9 +88,9 @@ a {
 .defaultHero {
   min-height: calc(54vh - 42px);
   background: linear-gradient(rgba(134, 228, 231, 0.7), rgba(0, 0, 0, 0.2)),
-    url("../images/FrontPageHero.png") center/cover no-repeat;
-  display: flex;
-  justify-content: center;
+    url("../images/FrontPageHero2.png") right/cover no-repeat;
+  display: inline-block;
+  justify-content: right;
   align-items: center;
 
 }

@@ -1,6 +1,5 @@
 .nav-header {
   display: flex;
-  /* background: var(--greenGrey); */
   background: linear-gradient(rgba(134, 228, 231, 0.7), rgba(0, 0, 0, 0.2)), url("../images/nav-background.png") center/cover no-repeat;
   justify-content: space-between;
   align-items: center;
@@ -37,13 +36,16 @@
   height: 216px;
 }
 
+
+/* Floating menu text, hidden when smallest sizes
+*/
 .nav-links a {
   display: block;
   padding: 0.6rem 1rem;
   text-decoration: none;
   text-transform: capitalize;
-  font-size: 0.9rem;
-  color: var(--textDarkBlue);
+  font-size: 0.95rem;
+  color: var(--greenGrey);
   transition: var(--mainTransition);
   font-weight: 800;
   letter-spacing: var(--mainSpacing);
@@ -57,27 +59,22 @@
   display: none;
 }
 
+.logo-icon {
+  color: var(--greenGrey)
+}
+
 @media screen and (min-width: 776px) {
+
   .navbar {
     margin: 0 auto;
     width: 100vw;
     padding: 0.6rem;
     font-size: 1rem;
     background: linear-gradient(rgba(177, 251, 253, 0.7), rgba(83, 83, 83, 0.2)), url("../images/nav-background.png") center/cover no-repeat;
-    /* background: var(--greenGrey); */
     position: fixed;
     z-index: 1;
-
-    /* 
-    position: fixed;
-    top: auto;
-    width: 100%;
-
-    z-index: 1; */
   }
-}
 
-@media screen and (min-width: 776px) {
   .logo-btn {
     display: none;
   }
@@ -103,7 +100,7 @@
   }
 
   .nav-social-links a {
-    color: var(--primaryColor);
+    color: var(--greenGrey);
     margin: 0 0.5rem;
     font-size: 1.2rem;
     transition: var(--mainTransition);

@@ -24,7 +24,7 @@ export const query = graphql`
       query {
   FrontPageHero:file(relativePath:{eq:"FrontPageHero.png"}){
     childImageSharp{
-      fluid(quality:90,maxWidth:1400){
+      fluid(quality:100,maxWidth:2000){
         ...GatsbyImageSharpFluid_withWebp
       }
     }

@@ -1,6 +1,8 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 
+
+// Query name must be unique.
 const getSiteData = graphql`
 query StaticFirstQuery {
     site {
@@ -17,6 +19,7 @@ query StaticFirstQuery {
     }
   }`
 
+// Static Query as a component >>> itself in return, not a regular return
 const RegularHeader = () => {
   return (
     <StaticQuery

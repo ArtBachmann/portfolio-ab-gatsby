@@ -26,7 +26,7 @@ const getTours = graphql`
   }
 }
 `
-
+// Etusivu Parhaat palat projectit.
 const FeaturedProjects = () => {
   const response = useStaticQuery(getTours)
   const projects = response.featuredProjects.edges

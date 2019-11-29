@@ -17,9 +17,6 @@ const getImage = graphql`
     }
   }
 `
-
-
-
 const Project = ({ project }) => {
   const data = useStaticQuery(getImage)
   const img = data.file.childImageSharp.fluid

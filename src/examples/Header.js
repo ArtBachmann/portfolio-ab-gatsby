@@ -1,9 +1,11 @@
+// Example of the useStaticQuery Hook, query itself outside of the component.
+
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 
 
 const getSiteData = graphql`
-  query FirstQuery {
+  query  {
     site {
       siteMetadata {
         title
@@ -18,7 +20,7 @@ const getSiteData = graphql`
     }
   }
 `
-
+// Query is in the regular return. >> my favourite.
 const Header = () => {
   const { site: { siteMetadata } } = useStaticQuery(getSiteData)
 
